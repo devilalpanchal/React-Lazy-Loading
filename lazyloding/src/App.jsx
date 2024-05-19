@@ -23,6 +23,7 @@ function App() {
 <Route path='/dashboard' element={<Suspense fallback={<Loading/>}><Dashboard/></Suspense>}/>
 </Routes>
 
+<Landing/>
 </BrowserRouter>
   )
 }
